@@ -7,7 +7,7 @@ __NOTE:__ The dataset provided and used in this project contains personal and se
 
 The main results of the project are summarized in the following notebooks:
 * model_performance.ipynb
-* diagnosis_correciton.ipynb
+* diagnosis_correction.ipynb
 
 
 # Repository structure
