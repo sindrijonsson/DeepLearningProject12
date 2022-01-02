@@ -3,7 +3,7 @@ Created by: Sindri Jónsson (s202056) & Thorvaldur Ingi Ingimundarson (s202037)
 
 The project was developed using in Google Drive using Colab notebooks. The main notebooks (.ipynb) pertaining to the work done in this project were then migrated to this GitHub repository.
 
-__NOTE:__ The dataset provided and used in this project contains personal and sensitive data and can therefore not be shared within this repository. For this reason an end-to-end run through of training/testing the models can not be performed. Instead, the results of from k-folds have been saved in the `K_fold` folder.
+__NOTE:__ The dataset provided and used in this project contains personal and sensitive data and can therefore not be shared within this repository. For this reason an end-to-end run through of training/testing the models can not be performed. Instead, the results from k-folds have been saved in the `K_fold` folder.
 
 The main results of the project are summarized in the following notebooks:
 * model_performance.ipynb
@@ -13,12 +13,12 @@ The main results of the project are summarized in the following notebooks:
 # Repository structure
 
 ```
-\DeepLearningProject12
+\DEEPLEARNINGPROJECT12
 │   DiseaseNet_with_kfold.ipynb
 │   FeatureNet_with_kfold.ipynb
+│   MTLNet_with_kfold.ipynb
 │   README.md
 │   SJ plotting.ipynb
-│   TH MTL net FINAL (NA).ipynb
 │   TH MTLNet_DomainNet correction (NA).ipynb
 │   TH MTL_DomainNet kfold (NA).ipynb
 │   TH plotting (NA).ipynb
@@ -41,6 +41,9 @@ The main results of the project are summarized in the following notebooks:
 │   │
 │   └───images
 │           044401HB.jpeg
+│
+├───HelperFunctions
+│       project_utils.py
 │
 └───K_fold
         Correction_FINAL_kfold_NA_0.json
