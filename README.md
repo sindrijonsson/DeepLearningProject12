@@ -5,25 +5,19 @@ The project was developed using in Google Drive using Colab notebooks. The main 
 
 __NOTE:__ The dataset provided and used in this project contains personal and sensitive data and can therefore not be shared within this repository. For this reason an end-to-end run through of training/testing the models can not be performed. Instead, the results from k-folds have been saved in the `K_fold` folder.
 
-The main results of the project are summarized in the following notebooks:
-* model_performance.ipynb
-* diagnosis_correction.ipynb
+However, the models are defined, trained and tested in a 5-fold CV in the notebooks found under `Models_kfold`.  
 
-Demo text 2
+The main results of the project are summarized in the following notebooks:
+* model_performance_results.ipynb
+* correction_results.ipynb
 
 # Repository structure
 
 ```
 \DEEPLEARNINGPROJECT12
-│   DiseaseNet_with_kfold.ipynb
-│   FeatureNet_with_kfold.ipynb
-│   MTLNet_with_kfold.ipynb
+│   correction_results.ipynb
+│   model_performance_results.ipynb
 │   README.md
-│   SJ plotting.ipynb
-│   TH MTLNet_DomainNet correction (NA).ipynb
-│   TH MTL_DomainNet kfold (NA).ipynb
-│   TH plotting (NA).ipynb
-│   TH plotting.ipynb
 │
 ├───Figures
 │       Copy of Dataset_Distributions.eps
@@ -46,26 +40,39 @@ Demo text 2
 ├───HelperFunctions
 │       project_utils.py
 │
-└───K_fold
-        Correction_FINAL_kfold_NA_0.json
-        Correction_FINAL_kfold_NA_1.json
-        Correction_FINAL_kfold_NA_2.json
-        Correction_FINAL_kfold_NA_3.json
-        Correction_FINAL_kfold_NA_4.json
-        DiseaseNet_FINAL_kfold_NA_0.json
-        DiseaseNet_FINAL_kfold_NA_1.json
-        DiseaseNet_FINAL_kfold_NA_2.json
-        DiseaseNet_FINAL_kfold_NA_3.json
-        DiseaseNet_FINAL_kfold_NA_4.json
-        Features_FINAL_kfold_NA_0.json
-        Features_FINAL_kfold_NA_1.json
-        Features_FINAL_kfold_NA_2.json
-        Features_FINAL_kfold_NA_3.json
-        Features_FINAL_kfold_NA_4.json
-        MTLNet_FINAL_kfold_NA_0.json
-        MTLNet_FINAL_kfold_NA_1.json
-        MTLNet_FINAL_kfold_NA_2.json
-        MTLNet_FINAL_kfold_NA_3.json
-        MTLNet_FINAL_kfold_NA_4.json
-        splits_FINAL_NA.csv
+├───K_fold
+│       Correction_FINAL_kfold_NA_0.json
+│       Correction_FINAL_kfold_NA_1.json
+│       Correction_FINAL_kfold_NA_2.json
+│       Correction_FINAL_kfold_NA_3.json
+│       Correction_FINAL_kfold_NA_4.json
+│       DiseaseNet_FINAL_kfold_NA_0.json
+│       DiseaseNet_FINAL_kfold_NA_1.json
+│       DiseaseNet_FINAL_kfold_NA_2.json
+│       DiseaseNet_FINAL_kfold_NA_3.json
+│       DiseaseNet_FINAL_kfold_NA_4.json
+│       Features_FINAL_kfold_NA_0.json
+│       Features_FINAL_kfold_NA_1.json
+│       Features_FINAL_kfold_NA_2.json
+│       Features_FINAL_kfold_NA_3.json
+│       Features_FINAL_kfold_NA_4.json
+│       MTLNet_FINAL_kfold_NA_0.json
+│       MTLNet_FINAL_kfold_NA_1.json
+│       MTLNet_FINAL_kfold_NA_2.json
+│       MTLNet_FINAL_kfold_NA_3.json
+│       MTLNet_FINAL_kfold_NA_4.json
+│       splits_FINAL_NA.csv
+│
+└───Models_kfold
+        DiseaseNet_with_kfold.ipynb
+        DomainNet_with_kfold.ipynb
+        FeatureNet_with_kfold.ipynb
+        MTLNet_DomainNet_Correction_kfold.ipynb
+        MTLNet_with_kfold.ipynb
 ```
+
+## Comments on running the notebooks:
+* The notebooks were developed using Google Colab on Google Drive, therefore there are code snippets that try to mount to a secure drive.
+* This will not be possible running locally, instead just comment out that block and make sure you are in the correct working directory.
+* Make sure that all packages are installed.
+
