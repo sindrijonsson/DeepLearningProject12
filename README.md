@@ -9,7 +9,7 @@ The main results of the project are summarized in the following notebooks:
 * model_performance.ipynb
 * diagnosis_correction.ipynb
 
-Demo text
+Demo text 2
 
 # Repository structure
 
