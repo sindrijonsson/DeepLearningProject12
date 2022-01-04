@@ -20,11 +20,7 @@ The main results of the project are summarized in the following notebooks:
 │   README.md
 │
 ├───Figures
-│       Copy of Dataset_Distributions.eps
 │       Dataset_Distributions.eps
-│       DiseaseExample.eps
-│       Kfold_CFM.eps
-│       Kfold_CFM_NA.eps
 │       Kfold_CFM_NA.png
 │       Net Diag - DOMAIN.drawio.png
 │       Net Diag - FINAL.drawio.png
@@ -41,11 +37,6 @@ The main results of the project are summarized in the following notebooks:
 │       project_utils.py
 │
 ├───K_fold
-│       Correction_FINAL_kfold_NA_0.json
-│       Correction_FINAL_kfold_NA_1.json
-│       Correction_FINAL_kfold_NA_2.json
-│       Correction_FINAL_kfold_NA_3.json
-│       Correction_FINAL_kfold_NA_4.json
 │       DiseaseNet_FINAL_kfold_NA_0.json
 │       DiseaseNet_FINAL_kfold_NA_1.json
 │       DiseaseNet_FINAL_kfold_NA_2.json
@@ -61,7 +52,17 @@ The main results of the project are summarized in the following notebooks:
 │       MTLNet_FINAL_kfold_NA_2.json
 │       MTLNet_FINAL_kfold_NA_3.json
 │       MTLNet_FINAL_kfold_NA_4.json
+│       Preds_Correction_FINAL_kfold_NA_0.json
+│       Preds_Correction_FINAL_kfold_NA_1.json
+│       Preds_Correction_FINAL_kfold_NA_2.json
+│       Preds_Correction_FINAL_kfold_NA_3.json
+│       Preds_Correction_FINAL_kfold_NA_4.json
 │       splits_FINAL_NA.csv
+│       TrueFeatures_Correction_FINAL_kfold_NA_0.json
+│       TrueFeatures_Correction_FINAL_kfold_NA_1.json
+│       TrueFeatures_Correction_FINAL_kfold_NA_2.json
+│       TrueFeatures_Correction_FINAL_kfold_NA_3.json
+│       TrueFeatures_Correction_FINAL_kfold_NA_4.json
 │
 └───Models_kfold
         DiseaseNet_with_kfold.ipynb
